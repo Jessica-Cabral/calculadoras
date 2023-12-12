@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Calculadora online</title>
+  </head>
+  <body>
+    <h1>[PretaLab - Turma 2] Módulo 3: Javascript</h1>
+
+    <h1>🐛</h1>
+
+    <main>
+      <p>
+        Projeto de conclusão do módulo de Javascript do
+        Ciclo Formativo Básico, uma parceria da PretaLab com o Santander. Aqui
+        tivemos acesso ao conhecimento de lógica com Javascript: variáveis e
+        constantes, operadores aritméticos e lógicos, estruturas condicionais e
+        de repetição, manipulação de arrays e manipulação do DOM. O projeto tem
+        como intuito demonstrar através da prática o conhecimento adquirido.
+      </p>
+
+      <div id="content">
+        <section id="calcbasica">
+          <h2>Calculadora Básica</h2>
+
+          <input class="inputCalc" id="num1Soma" type="number" required />
+          <input class="inputCalc" id="num2Soma" type="number" required />
+          <button class="buttonCalc" id="somar">SOMAR</button>
+          <p class="resultado" >Resultado: <strong id="resultadoSoma"></strong></p>
+
+          <input class="inputCalc" id="num1Sub" type="number" required />
+          <input class="inputCalc" id="num2Sub" type="number" required />
+          <button class="buttonCalc" id="subtrair">SUBTRAIR</button>
+          <p class="resultado">Resultado: <strong id="resultadoSub"></strong></p>
+
+          <input class="inputCalc" id="num1Mult" type="number" required />
+          <input class="inputCalc" id="num2Mult" type="number" required />
+          <button class="buttonCalc" id="multiplicar">MULTIPLICAR</button>
+          <p class="resultado">Resultado: <strong id="resultadoMult"></strong></p>
+
+          <input class="inputCalc" id="num1Div" type="number" required />
+          <input class="inputCalc" id="num2Div" type="number" required />
+          <button class="buttonCalc"id="dividir">DIVIDIR</button>
+          <p class="resultado">Resultado: <strong id="resultadoDiv"></strong></p>
+        </section>
+
+        <section id="calcmedia">
+          <h2>Calculadora de Médias</h2>
+
+          <div id="contentCalcMedias">
+            <div id="notas">
+              <div class="nota">
+                <label for="nota1">Nota 1</label>
+                <input class="inputNota" id="nota1" type="number" min="0" max="10" required />
+              </div>
+
+              <div class="nota">
+                <label for="nota2">Nota 2</label>
+                <input class="inputNota" id="nota2" type="number" min="0" max="10" required />
+              </div>
+
+              <div class="nota">
+                <label for="nota3">Nota 3</label>
+                <input class="inputNota" id="nota3" type="number" min="0" max="10" required />
+              </div>
+
+              <div class="nota">
+                <label for="nota4">Nota 4</label>
+                <input class="inputNota" id="nota4" type="number" min="0" max="10" required />
+              </div>
+            </div>
+
+            <button id="btSituacaoAluno"> Qual a situação do Aluno? </button>
+            <p><strong id="situacaoAluno"></strong></p>
+
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <script type="text/javascript" src="./calculadora.js"></script>
+    <script type="text/javascript" src="./media.js"></script>
+  </body>
+</html>
