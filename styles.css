@@ -37,6 +37,13 @@ button {
 
 }
 
+.buttonOperacao {
+  height: 36px;
+  width: 50px;
+  margin-bottom: 15px;
+  margin-left: 8px;
+}
+
 #projeto1, #projeto2 {
   padding: 10px 20px;
   line-height: auto
@@ -52,6 +59,7 @@ button {
   display: flex;
   width: 100%;
   justify-content: space-around;
+
 }
 
 #btnSituacao{
@@ -74,22 +82,27 @@ button {
 .nota {
   display: flex;
   flex-direction: column;
+
 }
 
 .inputCalc {
   width: 110px;
   height: 30px;
+  margin-left: 5px;
 }
 
 .buttonCalc {
   width: 110px;
+
 }
 
 .resultado {
   margin-top: 0;
+  margin-left: 5px;
 }
 
 .inputNota{
   width: 80px;
   height: 36px;
+  margin-left: 5px;
 }

@@ -1,4 +1,3 @@
-
 const botaoSomar = document.getElementById("somar")
 const botaoSubtrair = document.getElementById("subtrair")
 const botaoMultiplicar = document.getElementById("multiplicar")
@@ -60,4 +59,4 @@ function dividir() {
 botaoSomar.addEventListener ('click', somar)
 botaoSubtrair.addEventListener ('click', subtrair) 
 botaoMultiplicar.addEventListener ('click', multiplicar) 
-botaoDividir.addEventListener ('click', dividir) 
+botaoDividir.addEventListener ('click', dividir)
